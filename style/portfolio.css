@@ -119,3 +119,23 @@ main section{
 .skill-description{
     padding: 0 0 20px 0;
 }
+/* resume style section */
+.resume-cointainer{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.resume hr{
+        margin: 30px 5px;
+}
+.resume-download{
+    margin: 50px;
+}
