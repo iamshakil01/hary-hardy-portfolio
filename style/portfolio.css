@@ -148,8 +148,14 @@ footer{
 .footer-column{
     width: 50%;
 }
-footer input[type"text"]{
-    height: 64;
-    border-radius: 5px;
+footer input[type="text"],   footer input[type="email"],   footer textarea{
     background-color: white;
+    border-radius: 5px;
+    display: block;
+    height: 64px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+
 }
